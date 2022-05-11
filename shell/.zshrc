@@ -14,8 +14,9 @@ export PATH=/Users/ayidbelh/goinfre/.brew/bin:/usr/local/bin:/usr/bin:/bin:/usr/
 export HOMEBREW_NO_AUTO_UPDATE=1
 export EDITOR='nvim'
 export PATH=$PATH:/Users/ayidbelh/Downloads/nvim-osx64/bin
+export PATH=$PATH:/Users/ayidbelh/heapusage/build
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 alias vim='nvim'
-
+alias heapusage='heap'
